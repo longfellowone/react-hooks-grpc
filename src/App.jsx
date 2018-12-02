@@ -3,7 +3,11 @@ import Todo from './Todo/Todo';
 
 class App extends Component {
   render() {
-    return <Todo />;
+    return (
+      <div className="container mx-auto">
+        <Todo />
+      </div>
+    );
   }
 }
 export default App;
