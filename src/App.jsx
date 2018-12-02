@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import Todo from './Todo/Todo';
 
 class App extends Component {
   render() {
-    return <div className="bg-green">Hello World</div>;
+    return <Todo />;
   }
 }
 export default App;
